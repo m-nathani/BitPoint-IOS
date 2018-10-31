@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblAccType;
 @property (weak, nonatomic) IBOutlet UILabel *lblEmail;
 @property (weak, nonatomic) IBOutlet UIButton *btnTransfer;
+@property (weak, nonatomic) IBOutlet UIView *containerPoints;
 
 
 @end
@@ -40,6 +41,9 @@
     
     if(user.userType == UserTypePublic) {
         [_btnTransfer setHidden:YES];
+    }
+    else {
+        [_containerPoints setHidden:YES];
     }
 }
 

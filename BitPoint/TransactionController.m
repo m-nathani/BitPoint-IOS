@@ -43,6 +43,7 @@
     [service.blockchain mineBlock:blockToMine onSuccess:^(id response) {
         [self hideLoader];
         [Alert showAlertWithMessage:@"Bitpoints transfered successfully!"];
+        [self popViewController];
     } andfailure:^(NSError *error) {
         [self hideLoader];
         [self onServiceResponseFailure:error];

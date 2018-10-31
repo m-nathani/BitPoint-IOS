@@ -26,7 +26,7 @@
         [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
         
         _manager= [[HttpRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:baseURL]];
-        _manager.requestSerializer  = [AFHTTPRequestSerializer serializer];
+        _manager.requestSerializer  = [AFJSONRequestSerializer serializerWithWritingOptions:NSJSONWritingPrettyPrinted];
         _manager.responseSerializer = [AFJSONResponseSerializer serializerWithReadingOptions:NSJSONReadingAllowFragments];
         [_manager.operationQueue setMaxConcurrentOperationCount:1];
         [_manager.reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
@@ -115,7 +115,7 @@
 
 - (void)post:(NSString *)path parameters:(id)parameters success:(void (^)(id response))success failure:(void (^)(NSError *error))failure entity:(BaseEntity*)entity{
     [self makeRequestWithPath:path httpMethod:HttpMethodPOST parameters:parameters success:^(id response) {
-        [entity set:response];
+        [entity set:response[@"data"]];
         success(entity);
     } failure:^(NSError *error) {
         failure(error);
