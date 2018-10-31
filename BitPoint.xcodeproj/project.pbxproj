@@ -1,0 +1,1003 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0475FDA1DA754A61401F44E0 /* libPods-BitPoint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C46E3CC8610A9C44F1791F6D /* libPods-BitPoint.a */; };
+		EE04AC55218709E30000AC0B /* Logo.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC54218709E30000AC0B /* Logo.xib */; };
+		EE04AC6021870CE60000AC0B /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE04AC5A21870CE60000AC0B /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		EE04AC6121870CE60000AC0B /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE04AC5B21870CE60000AC0B /* TPKeyboardAvoidingTableView.m */; };
+		EE04AC6221870CE60000AC0B /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE04AC5C21870CE60000AC0B /* TPKeyboardAvoidingScrollView.m */; };
+		EE04AC6321870CE60000AC0B /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE04AC5E21870CE60000AC0B /* TPKeyboardAvoidingCollectionView.m */; };
+		EE04AC67218719C00000AC0B /* UserService.m in Sources */ = {isa = PBXBuildFile; fileRef = EE04AC66218719C00000AC0B /* UserService.m */; };
+		EE04AC6B218737500000AC0B /* LoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE04AC6A218737500000AC0B /* LoginResponse.m */; };
+		EE04AC6F21873A640000AC0B /* RegistrationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE04AC6E21873A640000AC0B /* RegistrationController.m */; };
+		EE04AC7221873A750000AC0B /* RegistrationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE04AC7121873A750000AC0B /* RegistrationView.m */; };
+		EE04AC7421873A7F0000AC0B /* RegistrationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC7321873A7F0000AC0B /* RegistrationView.xib */; };
+		EE04AC892187456C0000AC0B /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC762187456B0000AC0B /* Lato-HeavyItalic.ttf */; };
+		EE04AC8A2187456C0000AC0B /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC772187456B0000AC0B /* Lato-Italic.ttf */; };
+		EE04AC8B2187456C0000AC0B /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC782187456B0000AC0B /* Lato-LightItalic.ttf */; };
+		EE04AC8C2187456C0000AC0B /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC792187456B0000AC0B /* Lato-Thin.ttf */; };
+		EE04AC8D2187456C0000AC0B /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC7A2187456B0000AC0B /* SIL Open Font License.txt */; };
+		EE04AC8E2187456C0000AC0B /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC7B2187456B0000AC0B /* Lato-Bold.ttf */; };
+		EE04AC8F2187456C0000AC0B /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC7C2187456B0000AC0B /* Lato-Black.ttf */; };
+		EE04AC902187456C0000AC0B /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC7D2187456B0000AC0B /* Lato-SemiboldItalic.ttf */; };
+		EE04AC912187456C0000AC0B /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC7E2187456B0000AC0B /* Lato-HairlineItalic.ttf */; };
+		EE04AC922187456C0000AC0B /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC7F2187456B0000AC0B /* Lato-Regular.ttf */; };
+		EE04AC932187456C0000AC0B /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC802187456B0000AC0B /* Lato-Hairline.ttf */; };
+		EE04AC942187456C0000AC0B /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC812187456B0000AC0B /* Lato-BlackItalic.ttf */; };
+		EE04AC952187456C0000AC0B /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC822187456B0000AC0B /* Lato-Semibold.ttf */; };
+		EE04AC962187456C0000AC0B /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC832187456B0000AC0B /* Lato-MediumItalic.ttf */; };
+		EE04AC972187456C0000AC0B /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC842187456B0000AC0B /* Lato-Heavy.ttf */; };
+		EE04AC982187456C0000AC0B /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC852187456B0000AC0B /* Lato-BoldItalic.ttf */; };
+		EE04AC992187456C0000AC0B /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC862187456B0000AC0B /* Lato-Light.ttf */; };
+		EE04AC9A2187456C0000AC0B /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC872187456B0000AC0B /* Lato-Medium.ttf */; };
+		EE04AC9B2187456C0000AC0B /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE04AC882187456B0000AC0B /* Lato-ThinItalic.ttf */; };
+		EE855FC121882BDB002B19B7 /* ProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE855FC021882BDB002B19B7 /* ProfileController.m */; };
+		EE855FC421882BED002B19B7 /* ProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE855FC321882BED002B19B7 /* ProfileView.m */; };
+		EE855FC621882BFA002B19B7 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE855FC521882BFA002B19B7 /* ProfileView.xib */; };
+		EE855FCA218838B2002B19B7 /* RegisterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EE855FC9218838B2002B19B7 /* RegisterRequest.m */; };
+		EE855FD1218865D5002B19B7 /* TransactionController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE855FD0218865D5002B19B7 /* TransactionController.m */; };
+		EE855FD4218865EB002B19B7 /* TransactionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE855FD3218865EB002B19B7 /* TransactionView.m */; };
+		EE855FD6218865F8002B19B7 /* TransactionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE855FD5218865F8002B19B7 /* TransactionView.xib */; };
+		EE855FD921886C06002B19B7 /* LookupResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE855FD821886C06002B19B7 /* LookupResponse.m */; };
+		EE855FDC21886C3F002B19B7 /* Lookup.m in Sources */ = {isa = PBXBuildFile; fileRef = EE855FDB21886C3F002B19B7 /* Lookup.m */; };
+		EE855FE021887835002B19B7 /* BlockchainService.m in Sources */ = {isa = PBXBuildFile; fileRef = EE855FDF21887835002B19B7 /* BlockchainService.m */; };
+		EE855FE32188799A002B19B7 /* BlockResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE855FE22188799A002B19B7 /* BlockResponse.m */; };
+		EE855FE621887D30002B19B7 /* MineBlockRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EE855FE521887D30002B19B7 /* MineBlockRequest.m */; };
+		EE855FE921888A0B002B19B7 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EE855FE821888A0B002B19B7 /* Block.m */; };
+		EE895E552183431E00A1E357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E542183431E00A1E357 /* main.m */; };
+		EE895E582183431E00A1E357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E572183431E00A1E357 /* AppDelegate.m */; };
+		EE895E5E2183431E00A1E357 /* UIView+UIViewRect.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E5D2183431E00A1E357 /* UIView+UIViewRect.m */; };
+		EE895E622183431E00A1E357 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E612183431E00A1E357 /* Button.m */; };
+		EE895E652183431E00A1E357 /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E642183431E00A1E357 /* Label.m */; };
+		EE895E682183431E00A1E357 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E672183431E00A1E357 /* TableViewCell.m */; };
+		EE895E6B2183431E00A1E357 /* TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E6A2183431E00A1E357 /* TextField.m */; };
+		EE895E712183431E00A1E357 /* NibDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E702183431E00A1E357 /* NibDesignable.m */; };
+		EE895E762183431E00A1E357 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E752183431E00A1E357 /* BaseController.m */; };
+		EE895E792183431E00A1E357 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E782183431E00A1E357 /* BaseView.m */; };
+		EE895E7D2183431E00A1E357 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E7C2183431E00A1E357 /* LoginController.m */; };
+		EE895E802183431E00A1E357 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E7F2183431E00A1E357 /* LoginView.m */; };
+		EE895E822183431E00A1E357 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE895E812183431E00A1E357 /* LoginView.xib */; };
+		EE895E872183431E00A1E357 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E862183431E00A1E357 /* BaseService.m */; };
+		EE895E8B2183431E00A1E357 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E8A2183431E00A1E357 /* Service.m */; };
+		EE895E8F2183431E00A1E357 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E8E2183431E00A1E357 /* Color.m */; };
+		EE895E922183431E00A1E357 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E912183431E00A1E357 /* DateUtils.m */; };
+		EE895E952183431E00A1E357 /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E942183431E00A1E357 /* Font.m */; };
+		EE895E982183431E00A1E357 /* ParserUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E972183431E00A1E357 /* ParserUtils.m */; };
+		EE895E9B2183431E00A1E357 /* StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895E9A2183431E00A1E357 /* StringUtils.m */; };
+		EE895E9E2183431E00A1E357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE895E9D2183431E00A1E357 /* Assets.xcassets */; };
+		EE895EA12183431E00A1E357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE895E9F2183431E00A1E357 /* LaunchScreen.storyboard */; };
+		EE895EAA21834AD700A1E357 /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895EA821834AD600A1E357 /* LoginRequest.m */; };
+		EE895EAE21834B2600A1E357 /* AuthService.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895EAD21834B2600A1E357 /* AuthService.m */; };
+		EE895EB221834B3C00A1E357 /* AuthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895EB021834B3C00A1E357 /* AuthResponse.m */; };
+		EE895EBA21834BBA00A1E357 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895EB921834BBA00A1E357 /* BaseRequest.m */; };
+		EE895EBE21834C6000A1E357 /* PasswordChangeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895EBD21834C6000A1E357 /* PasswordChangeRequest.m */; };
+		EE895EC121834C8200A1E357 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895EC021834C8200A1E357 /* BaseResponse.m */; };
+		EE895EC421834CB700A1E357 /* BaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895EC321834CB700A1E357 /* BaseEntity.m */; };
+		EE895EC721834CC100A1E357 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895EC621834CC100A1E357 /* User.m */; };
+		EE895ECA21834CE300A1E357 /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895EC921834CE200A1E357 /* UserDefaults.m */; };
+		EE895ECE21834D9C00A1E357 /* HttpRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895ECD21834D9B00A1E357 /* HttpRequestManager.m */; };
+		EE895ED221834E6D00A1E357 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895ED021834E6D00A1E357 /* Alert.m */; };
+		EE895ED921834F1300A1E357 /* NSURLSessionTask+CustomProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895ED621834F1300A1E357 /* NSURLSessionTask+CustomProperties.m */; };
+		EE895EDA21834F1300A1E357 /* HttpRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895ED721834F1300A1E357 /* HttpRequestOperationManager.m */; };
+		EE895EDD21834F6D00A1E357 /* UsersResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE895EDC21834F6D00A1E357 /* UsersResponse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C46E3CC8610A9C44F1791F6D /* libPods-BitPoint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitPoint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7DE98390E1D4DD2D116456 /* Pods-BitPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitPoint/Pods-BitPoint.release.xcconfig"; sourceTree = "<group>"; };
+		EE04AC532186F3D60000AC0B /* Enum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enum.h; sourceTree = "<group>"; };
+		EE04AC54218709E30000AC0B /* Logo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Logo.xib; sourceTree = "<group>"; };
+		EE04AC5821870CE60000AC0B /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		EE04AC5921870CE60000AC0B /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		EE04AC5A21870CE60000AC0B /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		EE04AC5B21870CE60000AC0B /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		EE04AC5C21870CE60000AC0B /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		EE04AC5D21870CE60000AC0B /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		EE04AC5E21870CE60000AC0B /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		EE04AC5F21870CE60000AC0B /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		EE04AC65218719C00000AC0B /* UserService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserService.h; sourceTree = "<group>"; };
+		EE04AC66218719C00000AC0B /* UserService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserService.m; sourceTree = "<group>"; };
+		EE04AC69218737500000AC0B /* LoginResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginResponse.h; sourceTree = "<group>"; };
+		EE04AC6A218737500000AC0B /* LoginResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginResponse.m; sourceTree = "<group>"; };
+		EE04AC6D21873A640000AC0B /* RegistrationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationController.h; sourceTree = "<group>"; };
+		EE04AC6E21873A640000AC0B /* RegistrationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationController.m; sourceTree = "<group>"; };
+		EE04AC7021873A750000AC0B /* RegistrationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationView.h; sourceTree = "<group>"; };
+		EE04AC7121873A750000AC0B /* RegistrationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationView.m; sourceTree = "<group>"; };
+		EE04AC7321873A7F0000AC0B /* RegistrationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationView.xib; sourceTree = "<group>"; };
+		EE04AC762187456B0000AC0B /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		EE04AC772187456B0000AC0B /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		EE04AC782187456B0000AC0B /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		EE04AC792187456B0000AC0B /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		EE04AC7A2187456B0000AC0B /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		EE04AC7B2187456B0000AC0B /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		EE04AC7C2187456B0000AC0B /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		EE04AC7D2187456B0000AC0B /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		EE04AC7E2187456B0000AC0B /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		EE04AC7F2187456B0000AC0B /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		EE04AC802187456B0000AC0B /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		EE04AC812187456B0000AC0B /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		EE04AC822187456B0000AC0B /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		EE04AC832187456B0000AC0B /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		EE04AC842187456B0000AC0B /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		EE04AC852187456B0000AC0B /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EE04AC862187456B0000AC0B /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		EE04AC872187456B0000AC0B /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		EE04AC882187456B0000AC0B /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		EE855FBF21882BDB002B19B7 /* ProfileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileController.h; sourceTree = "<group>"; };
+		EE855FC021882BDB002B19B7 /* ProfileController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileController.m; sourceTree = "<group>"; };
+		EE855FC221882BED002B19B7 /* ProfileView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileView.h; sourceTree = "<group>"; };
+		EE855FC321882BED002B19B7 /* ProfileView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileView.m; sourceTree = "<group>"; };
+		EE855FC521882BFA002B19B7 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		EE855FC8218838B2002B19B7 /* RegisterRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterRequest.h; sourceTree = "<group>"; };
+		EE855FC9218838B2002B19B7 /* RegisterRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterRequest.m; sourceTree = "<group>"; };
+		EE855FCF218865D5002B19B7 /* TransactionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionController.h; sourceTree = "<group>"; };
+		EE855FD0218865D5002B19B7 /* TransactionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionController.m; sourceTree = "<group>"; };
+		EE855FD2218865EB002B19B7 /* TransactionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionView.h; sourceTree = "<group>"; };
+		EE855FD3218865EB002B19B7 /* TransactionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionView.m; sourceTree = "<group>"; };
+		EE855FD5218865F8002B19B7 /* TransactionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionView.xib; sourceTree = "<group>"; };
+		EE855FD721886C06002B19B7 /* LookupResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LookupResponse.h; sourceTree = "<group>"; };
+		EE855FD821886C06002B19B7 /* LookupResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookupResponse.m; sourceTree = "<group>"; };
+		EE855FDA21886C3F002B19B7 /* Lookup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lookup.h; sourceTree = "<group>"; };
+		EE855FDB21886C3F002B19B7 /* Lookup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lookup.m; sourceTree = "<group>"; };
+		EE855FDE21887835002B19B7 /* BlockchainService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockchainService.h; sourceTree = "<group>"; };
+		EE855FDF21887835002B19B7 /* BlockchainService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockchainService.m; sourceTree = "<group>"; };
+		EE855FE12188799A002B19B7 /* BlockResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockResponse.h; sourceTree = "<group>"; };
+		EE855FE22188799A002B19B7 /* BlockResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockResponse.m; sourceTree = "<group>"; };
+		EE855FE421887D30002B19B7 /* MineBlockRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineBlockRequest.h; sourceTree = "<group>"; };
+		EE855FE521887D30002B19B7 /* MineBlockRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineBlockRequest.m; sourceTree = "<group>"; };
+		EE855FE721888A0B002B19B7 /* Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		EE855FE821888A0B002B19B7 /* Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+		EE895E4F2183431E00A1E357 /* BitPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE895E532183431E00A1E357 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		EE895E542183431E00A1E357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		EE895E572183431E00A1E357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
+		EE895E592183431E00A1E357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
+		EE895E5A2183431E00A1E357 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE895E5C2183431E00A1E357 /* UIView+UIViewRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+UIViewRect.h"; path = "Categories/UIView+UIViewRect.h"; sourceTree = "<group>"; };
+		EE895E5D2183431E00A1E357 /* UIView+UIViewRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+UIViewRect.m"; path = "Categories/UIView+UIViewRect.m"; sourceTree = "<group>"; };
+		EE895E602183431E00A1E357 /* Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Button.h; path = Components/Button.h; sourceTree = "<group>"; };
+		EE895E612183431E00A1E357 /* Button.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Button.m; path = Components/Button.m; sourceTree = "<group>"; };
+		EE895E632183431E00A1E357 /* Label.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Label.h; path = Components/Label.h; sourceTree = "<group>"; };
+		EE895E642183431E00A1E357 /* Label.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Label.m; path = Components/Label.m; sourceTree = "<group>"; };
+		EE895E662183431E00A1E357 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = Components/TableViewCell.h; sourceTree = "<group>"; };
+		EE895E672183431E00A1E357 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TableViewCell.m; path = Components/TableViewCell.m; sourceTree = "<group>"; };
+		EE895E692183431E00A1E357 /* TextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TextField.h; path = Components/TextField.h; sourceTree = "<group>"; };
+		EE895E6A2183431E00A1E357 /* TextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TextField.m; path = Components/TextField.m; sourceTree = "<group>"; };
+		EE895E6D2183431E00A1E357 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = Constants/Constant.h; sourceTree = "<group>"; };
+		EE895E6F2183431E00A1E357 /* NibDesignable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NibDesignable.h; path = Controls/NibDesignable.h; sourceTree = "<group>"; };
+		EE895E702183431E00A1E357 /* NibDesignable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NibDesignable.m; path = Controls/NibDesignable.m; sourceTree = "<group>"; };
+		EE895E742183431E00A1E357 /* BaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseController.h; path = Scenes/Base/BaseController.h; sourceTree = "<group>"; };
+		EE895E752183431E00A1E357 /* BaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = Scenes/Base/BaseController.m; sourceTree = "<group>"; };
+		EE895E772183431E00A1E357 /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseView.h; path = Scenes/Base/BaseView.h; sourceTree = "<group>"; };
+		EE895E782183431E00A1E357 /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BaseView.m; path = Scenes/Base/BaseView.m; sourceTree = "<group>"; };
+		EE895E7B2183431E00A1E357 /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginController.h; path = Scenes/Login/LoginController.h; sourceTree = "<group>"; };
+		EE895E7C2183431E00A1E357 /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginController.m; path = Scenes/Login/LoginController.m; sourceTree = "<group>"; };
+		EE895E7E2183431E00A1E357 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginView.h; path = Scenes/Login/LoginView.h; sourceTree = "<group>"; };
+		EE895E7F2183431E00A1E357 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginView.m; path = Scenes/Login/LoginView.m; sourceTree = "<group>"; };
+		EE895E812183431E00A1E357 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginView.xib; path = Scenes/Login/LoginView.xib; sourceTree = "<group>"; };
+		EE895E852183431E00A1E357 /* BaseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseService.h; path = Service/Base/BaseService.h; sourceTree = "<group>"; };
+		EE895E862183431E00A1E357 /* BaseService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BaseService.m; path = Service/Base/BaseService.m; sourceTree = "<group>"; };
+		EE895E892183431E00A1E357 /* Service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Service.h; path = Service/Factory/Service.h; sourceTree = "<group>"; };
+		EE895E8A2183431E00A1E357 /* Service.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Service.m; path = Service/Factory/Service.m; sourceTree = "<group>"; };
+		EE895E8D2183431E00A1E357 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Color.h; path = Utils/Color.h; sourceTree = "<group>"; };
+		EE895E8E2183431E00A1E357 /* Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Color.m; path = Utils/Color.m; sourceTree = "<group>"; };
+		EE895E902183431E00A1E357 /* DateUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DateUtils.h; path = Utils/DateUtils.h; sourceTree = "<group>"; };
+		EE895E912183431E00A1E357 /* DateUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DateUtils.m; path = Utils/DateUtils.m; sourceTree = "<group>"; };
+		EE895E932183431E00A1E357 /* Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Font.h; path = Utils/Font.h; sourceTree = "<group>"; };
+		EE895E942183431E00A1E357 /* Font.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Font.m; path = Utils/Font.m; sourceTree = "<group>"; };
+		EE895E962183431E00A1E357 /* ParserUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParserUtils.h; path = Utils/ParserUtils.h; sourceTree = "<group>"; };
+		EE895E972183431E00A1E357 /* ParserUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ParserUtils.m; path = Utils/ParserUtils.m; sourceTree = "<group>"; };
+		EE895E992183431E00A1E357 /* StringUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StringUtils.h; path = Utils/StringUtils.h; sourceTree = "<group>"; };
+		EE895E9A2183431E00A1E357 /* StringUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StringUtils.m; path = Utils/StringUtils.m; sourceTree = "<group>"; };
+		EE895E9D2183431E00A1E357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		EE895EA02183431E00A1E357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE895EA22183431E00A1E357 /* BitPoint-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BitPoint-Info.plist"; sourceTree = "<group>"; };
+		EE895EA821834AD600A1E357 /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginRequest.m; path = Scenes/Login/LoginRequest.m; sourceTree = "<group>"; };
+		EE895EA921834AD700A1E357 /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginRequest.h; path = Scenes/Login/LoginRequest.h; sourceTree = "<group>"; };
+		EE895EAC21834B2600A1E357 /* AuthService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthService.h; sourceTree = "<group>"; };
+		EE895EAD21834B2600A1E357 /* AuthService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthService.m; sourceTree = "<group>"; };
+		EE895EB021834B3C00A1E357 /* AuthResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthResponse.m; sourceTree = "<group>"; };
+		EE895EB121834B3C00A1E357 /* AuthResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthResponse.h; sourceTree = "<group>"; };
+		EE895EB821834BBA00A1E357 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		EE895EB921834BBA00A1E357 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		EE895EBB21834BF400A1E357 /* Key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Key.h; sourceTree = "<group>"; };
+		EE895EBC21834C6000A1E357 /* PasswordChangeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordChangeRequest.h; sourceTree = "<group>"; };
+		EE895EBD21834C6000A1E357 /* PasswordChangeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordChangeRequest.m; sourceTree = "<group>"; };
+		EE895EBF21834C8100A1E357 /* BaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		EE895EC021834C8200A1E357 /* BaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		EE895EC221834CB700A1E357 /* BaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEntity.h; sourceTree = "<group>"; };
+		EE895EC321834CB700A1E357 /* BaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEntity.m; sourceTree = "<group>"; };
+		EE895EC521834CC100A1E357 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		EE895EC621834CC100A1E357 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		EE895EC821834CE200A1E357 /* UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		EE895EC921834CE200A1E357 /* UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaults.m; sourceTree = "<group>"; };
+		EE895ECC21834D9B00A1E357 /* HttpRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestManager.h; sourceTree = "<group>"; };
+		EE895ECD21834D9B00A1E357 /* HttpRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestManager.m; sourceTree = "<group>"; };
+		EE895ECF21834E1000A1E357 /* BitPoint-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BitPoint-Prefix.pch"; sourceTree = "<group>"; };
+		EE895ED021834E6D00A1E357 /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
+		EE895ED121834E6D00A1E357 /* Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
+		EE895ED321834E9200A1E357 /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		EE895ED521834F1300A1E357 /* HttpRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestOperationManager.h; sourceTree = "<group>"; };
+		EE895ED621834F1300A1E357 /* NSURLSessionTask+CustomProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionTask+CustomProperties.m"; sourceTree = "<group>"; };
+		EE895ED721834F1300A1E357 /* HttpRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestOperationManager.m; sourceTree = "<group>"; };
+		EE895ED821834F1300A1E357 /* NSURLSessionTask+CustomProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionTask+CustomProperties.h"; sourceTree = "<group>"; };
+		EE895EDB21834F6D00A1E357 /* UsersResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersResponse.h; sourceTree = "<group>"; };
+		EE895EDC21834F6D00A1E357 /* UsersResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersResponse.m; sourceTree = "<group>"; };
+		F18E40EA0492B66B347C4F9F /* Pods-BitPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitPoint/Pods-BitPoint.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE895E4C2183431E00A1E357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0475FDA1DA754A61401F44E0 /* libPods-BitPoint.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63ABA978FBAEC7D1865F1C52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F18E40EA0492B66B347C4F9F /* Pods-BitPoint.debug.xcconfig */,
+				DE7DE98390E1D4DD2D116456 /* Pods-BitPoint.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AADB96BBFFC0C10E5FE90CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C46E3CC8610A9C44F1791F6D /* libPods-BitPoint.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE04AC5621870CC90000AC0B /* ExternalLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				EE04AC5721870CE60000AC0B /* TPKeyboardAvoiding */,
+			);
+			name = ExternalLibraries;
+			sourceTree = "<group>";
+		};
+		EE04AC5721870CE60000AC0B /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				EE04AC5821870CE60000AC0B /* TPKeyboardAvoidingScrollView.h */,
+				EE04AC5921870CE60000AC0B /* TPKeyboardAvoidingCollectionView.h */,
+				EE04AC5A21870CE60000AC0B /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				EE04AC5B21870CE60000AC0B /* TPKeyboardAvoidingTableView.m */,
+				EE04AC5C21870CE60000AC0B /* TPKeyboardAvoidingScrollView.m */,
+				EE04AC5D21870CE60000AC0B /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				EE04AC5E21870CE60000AC0B /* TPKeyboardAvoidingCollectionView.m */,
+				EE04AC5F21870CE60000AC0B /* TPKeyboardAvoidingTableView.h */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		EE04AC64218719A90000AC0B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EE04AC65218719C00000AC0B /* UserService.h */,
+				EE04AC66218719C00000AC0B /* UserService.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		EE04AC6C21873A3A0000AC0B /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				EE04AC6D21873A640000AC0B /* RegistrationController.h */,
+				EE04AC6E21873A640000AC0B /* RegistrationController.m */,
+				EE04AC7021873A750000AC0B /* RegistrationView.h */,
+				EE04AC7121873A750000AC0B /* RegistrationView.m */,
+				EE04AC7321873A7F0000AC0B /* RegistrationView.xib */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		EE04AC752187456B0000AC0B /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				EE04AC762187456B0000AC0B /* Lato-HeavyItalic.ttf */,
+				EE04AC772187456B0000AC0B /* Lato-Italic.ttf */,
+				EE04AC782187456B0000AC0B /* Lato-LightItalic.ttf */,
+				EE04AC792187456B0000AC0B /* Lato-Thin.ttf */,
+				EE04AC7A2187456B0000AC0B /* SIL Open Font License.txt */,
+				EE04AC7B2187456B0000AC0B /* Lato-Bold.ttf */,
+				EE04AC7C2187456B0000AC0B /* Lato-Black.ttf */,
+				EE04AC7D2187456B0000AC0B /* Lato-SemiboldItalic.ttf */,
+				EE04AC7E2187456B0000AC0B /* Lato-HairlineItalic.ttf */,
+				EE04AC7F2187456B0000AC0B /* Lato-Regular.ttf */,
+				EE04AC802187456B0000AC0B /* Lato-Hairline.ttf */,
+				EE04AC812187456B0000AC0B /* Lato-BlackItalic.ttf */,
+				EE04AC822187456B0000AC0B /* Lato-Semibold.ttf */,
+				EE04AC832187456B0000AC0B /* Lato-MediumItalic.ttf */,
+				EE04AC842187456B0000AC0B /* Lato-Heavy.ttf */,
+				EE04AC852187456B0000AC0B /* Lato-BoldItalic.ttf */,
+				EE04AC862187456B0000AC0B /* Lato-Light.ttf */,
+				EE04AC872187456B0000AC0B /* Lato-Medium.ttf */,
+				EE04AC882187456B0000AC0B /* Lato-ThinItalic.ttf */,
+			);
+			path = Lato;
+			sourceTree = "<group>";
+		};
+		EE855FBE218827F3002B19B7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EE855FBF21882BDB002B19B7 /* ProfileController.h */,
+				EE855FC021882BDB002B19B7 /* ProfileController.m */,
+				EE855FC221882BED002B19B7 /* ProfileView.h */,
+				EE855FC321882BED002B19B7 /* ProfileView.m */,
+				EE855FC521882BFA002B19B7 /* ProfileView.xib */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		EE855FCE218865C1002B19B7 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				EE855FCF218865D5002B19B7 /* TransactionController.h */,
+				EE855FD0218865D5002B19B7 /* TransactionController.m */,
+				EE855FD2218865EB002B19B7 /* TransactionView.h */,
+				EE855FD3218865EB002B19B7 /* TransactionView.m */,
+				EE855FD5218865F8002B19B7 /* TransactionView.xib */,
+			);
+			name = Transaction;
+			sourceTree = "<group>";
+		};
+		EE855FDD2188781F002B19B7 /* BlockChain */ = {
+			isa = PBXGroup;
+			children = (
+				EE855FDE21887835002B19B7 /* BlockchainService.h */,
+				EE855FDF21887835002B19B7 /* BlockchainService.m */,
+			);
+			name = BlockChain;
+			sourceTree = "<group>";
+		};
+		EE895E462183431E00A1E357 = {
+			isa = PBXGroup;
+			children = (
+				EE895E512183431E00A1E357 /* BitPoint */,
+				EE895E502183431E00A1E357 /* Products */,
+				63ABA978FBAEC7D1865F1C52 /* Pods */,
+				AADB96BBFFC0C10E5FE90CFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE895E502183431E00A1E357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE895E4F2183431E00A1E357 /* BitPoint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE895E512183431E00A1E357 /* BitPoint */ = {
+			isa = PBXGroup;
+			children = (
+				EE895E6C2183431E00A1E357 /* Constants */,
+				EE04AC5621870CC90000AC0B /* ExternalLibraries */,
+				EE895ED421834F0A00A1E357 /* Categories */,
+				EE895ECB21834D8600A1E357 /* Manager */,
+				EE895EB721834B6000A1E357 /* Request */,
+				EE895EB321834B4B00A1E357 /* Entity */,
+				EE895EAF21834B3100A1E357 /* Response */,
+				EE895E522183431E00A1E357 /* SupportingFiles */,
+				EE895E562183431E00A1E357 /* AppDelegate */,
+				EE895E5B2183431E00A1E357 /* Categories */,
+				EE895E5F2183431E00A1E357 /* Components */,
+				EE895E6E2183431E00A1E357 /* Controls */,
+				EE895E722183431E00A1E357 /* Scenes */,
+				EE895E832183431E00A1E357 /* Service */,
+				EE895E8C2183431E00A1E357 /* Utils */,
+				EE895E9C2183431E00A1E357 /* Resources */,
+			);
+			path = BitPoint;
+			sourceTree = "<group>";
+		};
+		EE895E522183431E00A1E357 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EE895E532183431E00A1E357 /* .gitignore */,
+				EE895E542183431E00A1E357 /* main.m */,
+				EE895E5A2183431E00A1E357 /* Podfile */,
+				EE895EA22183431E00A1E357 /* BitPoint-Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		EE895E562183431E00A1E357 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EE895E572183431E00A1E357 /* AppDelegate.m */,
+				EE895E592183431E00A1E357 /* AppDelegate.h */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EE895E5B2183431E00A1E357 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EE895E5C2183431E00A1E357 /* UIView+UIViewRect.h */,
+				EE895E5D2183431E00A1E357 /* UIView+UIViewRect.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		EE895E5F2183431E00A1E357 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EE895E602183431E00A1E357 /* Button.h */,
+				EE895E612183431E00A1E357 /* Button.m */,
+				EE895E632183431E00A1E357 /* Label.h */,
+				EE895E642183431E00A1E357 /* Label.m */,
+				EE895E662183431E00A1E357 /* TableViewCell.h */,
+				EE895E672183431E00A1E357 /* TableViewCell.m */,
+				EE895E692183431E00A1E357 /* TextField.h */,
+				EE895E6A2183431E00A1E357 /* TextField.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		EE895E6C2183431E00A1E357 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EE04AC532186F3D60000AC0B /* Enum.h */,
+				EE895ED321834E9200A1E357 /* Message.h */,
+				EE895EBB21834BF400A1E357 /* Key.h */,
+				EE895E6D2183431E00A1E357 /* Constant.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		EE895E6E2183431E00A1E357 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				EE895E6F2183431E00A1E357 /* NibDesignable.h */,
+				EE895E702183431E00A1E357 /* NibDesignable.m */,
+				EE04AC54218709E30000AC0B /* Logo.xib */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		EE895E722183431E00A1E357 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EE855FCE218865C1002B19B7 /* Transaction */,
+				EE855FBE218827F3002B19B7 /* Profile */,
+				EE04AC6C21873A3A0000AC0B /* Register */,
+				EE895E732183431E00A1E357 /* Base */,
+				EE895E7A2183431E00A1E357 /* Login */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		EE895E732183431E00A1E357 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EE895E742183431E00A1E357 /* BaseController.h */,
+				EE895E752183431E00A1E357 /* BaseController.m */,
+				EE895E772183431E00A1E357 /* BaseView.h */,
+				EE895E782183431E00A1E357 /* BaseView.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EE895E7A2183431E00A1E357 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EE895E7B2183431E00A1E357 /* LoginController.h */,
+				EE895E7C2183431E00A1E357 /* LoginController.m */,
+				EE895E7E2183431E00A1E357 /* LoginView.h */,
+				EE895E7F2183431E00A1E357 /* LoginView.m */,
+				EE895E812183431E00A1E357 /* LoginView.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		EE895E832183431E00A1E357 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EE855FDD2188781F002B19B7 /* BlockChain */,
+				EE04AC64218719A90000AC0B /* User */,
+				EE895EAB21834B1200A1E357 /* Auth */,
+				EE895E842183431E00A1E357 /* Base */,
+				EE895E882183431E00A1E357 /* Factory */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		EE895E842183431E00A1E357 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EE895E852183431E00A1E357 /* BaseService.h */,
+				EE895E862183431E00A1E357 /* BaseService.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EE895E882183431E00A1E357 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				EE895E892183431E00A1E357 /* Service.h */,
+				EE895E8A2183431E00A1E357 /* Service.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		EE895E8C2183431E00A1E357 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EE895ED121834E6D00A1E357 /* Alert.h */,
+				EE895ED021834E6D00A1E357 /* Alert.m */,
+				EE895EC821834CE200A1E357 /* UserDefaults.h */,
+				EE895EC921834CE200A1E357 /* UserDefaults.m */,
+				EE895E8D2183431E00A1E357 /* Color.h */,
+				EE895E8E2183431E00A1E357 /* Color.m */,
+				EE895E902183431E00A1E357 /* DateUtils.h */,
+				EE895E912183431E00A1E357 /* DateUtils.m */,
+				EE895E932183431E00A1E357 /* Font.h */,
+				EE895E942183431E00A1E357 /* Font.m */,
+				EE895E962183431E00A1E357 /* ParserUtils.h */,
+				EE895E972183431E00A1E357 /* ParserUtils.m */,
+				EE895E992183431E00A1E357 /* StringUtils.h */,
+				EE895E9A2183431E00A1E357 /* StringUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		EE895E9C2183431E00A1E357 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE04AC752187456B0000AC0B /* Lato */,
+				EE895ECF21834E1000A1E357 /* BitPoint-Prefix.pch */,
+				EE895E9D2183431E00A1E357 /* Assets.xcassets */,
+				EE895E9F2183431E00A1E357 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EE895EAB21834B1200A1E357 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EE895EAC21834B2600A1E357 /* AuthService.h */,
+				EE895EAD21834B2600A1E357 /* AuthService.m */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		EE895EAF21834B3100A1E357 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				EE895EDB21834F6D00A1E357 /* UsersResponse.h */,
+				EE895EDC21834F6D00A1E357 /* UsersResponse.m */,
+				EE895EBF21834C8100A1E357 /* BaseResponse.h */,
+				EE895EC021834C8200A1E357 /* BaseResponse.m */,
+				EE895EB121834B3C00A1E357 /* AuthResponse.h */,
+				EE895EB021834B3C00A1E357 /* AuthResponse.m */,
+				EE04AC69218737500000AC0B /* LoginResponse.h */,
+				EE04AC6A218737500000AC0B /* LoginResponse.m */,
+				EE855FD721886C06002B19B7 /* LookupResponse.h */,
+				EE855FD821886C06002B19B7 /* LookupResponse.m */,
+				EE855FE12188799A002B19B7 /* BlockResponse.h */,
+				EE855FE22188799A002B19B7 /* BlockResponse.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+		EE895EB321834B4B00A1E357 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				EE895EC221834CB700A1E357 /* BaseEntity.h */,
+				EE895EC321834CB700A1E357 /* BaseEntity.m */,
+				EE895EC521834CC100A1E357 /* User.h */,
+				EE895EC621834CC100A1E357 /* User.m */,
+				EE855FDA21886C3F002B19B7 /* Lookup.h */,
+				EE855FDB21886C3F002B19B7 /* Lookup.m */,
+				EE855FE721888A0B002B19B7 /* Block.h */,
+				EE855FE821888A0B002B19B7 /* Block.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		EE895EB721834B6000A1E357 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EE895EB821834BBA00A1E357 /* BaseRequest.h */,
+				EE895EB921834BBA00A1E357 /* BaseRequest.m */,
+				EE895EA921834AD700A1E357 /* LoginRequest.h */,
+				EE895EA821834AD600A1E357 /* LoginRequest.m */,
+				EE895EBC21834C6000A1E357 /* PasswordChangeRequest.h */,
+				EE895EBD21834C6000A1E357 /* PasswordChangeRequest.m */,
+				EE855FC8218838B2002B19B7 /* RegisterRequest.h */,
+				EE855FC9218838B2002B19B7 /* RegisterRequest.m */,
+				EE855FE421887D30002B19B7 /* MineBlockRequest.h */,
+				EE855FE521887D30002B19B7 /* MineBlockRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		EE895ECB21834D8600A1E357 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EE895ECC21834D9B00A1E357 /* HttpRequestManager.h */,
+				EE895ECD21834D9B00A1E357 /* HttpRequestManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		EE895ED421834F0A00A1E357 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EE895ED521834F1300A1E357 /* HttpRequestOperationManager.h */,
+				EE895ED721834F1300A1E357 /* HttpRequestOperationManager.m */,
+				EE895ED821834F1300A1E357 /* NSURLSessionTask+CustomProperties.h */,
+				EE895ED621834F1300A1E357 /* NSURLSessionTask+CustomProperties.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE895E4E2183431E00A1E357 /* BitPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE895EA52183431E00A1E357 /* Build configuration list for PBXNativeTarget "BitPoint" */;
+			buildPhases = (
+				FC4DE11A7CA7F3B6DB2E1AAC /* [CP] Check Pods Manifest.lock */,
+				EE895E4B2183431E00A1E357 /* Sources */,
+				EE895E4C2183431E00A1E357 /* Frameworks */,
+				EE895E4D2183431E00A1E357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitPoint;
+			productName = BitPoint;
+			productReference = EE895E4F2183431E00A1E357 /* BitPoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE895E472183431E00A1E357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					EE895E4E2183431E00A1E357 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = EE895E4A2183431E00A1E357 /* Build configuration list for PBXProject "BitPoint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE895E462183431E00A1E357;
+			productRefGroup = EE895E502183431E00A1E357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE895E4E2183431E00A1E357 /* BitPoint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE895E4D2183431E00A1E357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE04AC972187456C0000AC0B /* Lato-Heavy.ttf in Resources */,
+				EE855FC621882BFA002B19B7 /* ProfileView.xib in Resources */,
+				EE04AC962187456C0000AC0B /* Lato-MediumItalic.ttf in Resources */,
+				EE04AC8E2187456C0000AC0B /* Lato-Bold.ttf in Resources */,
+				EE04AC992187456C0000AC0B /* Lato-Light.ttf in Resources */,
+				EE895EA12183431E00A1E357 /* LaunchScreen.storyboard in Resources */,
+				EE04AC8D2187456C0000AC0B /* SIL Open Font License.txt in Resources */,
+				EE04AC8C2187456C0000AC0B /* Lato-Thin.ttf in Resources */,
+				EE04AC912187456C0000AC0B /* Lato-HairlineItalic.ttf in Resources */,
+				EE04AC8F2187456C0000AC0B /* Lato-Black.ttf in Resources */,
+				EE04AC932187456C0000AC0B /* Lato-Hairline.ttf in Resources */,
+				EE04AC8A2187456C0000AC0B /* Lato-Italic.ttf in Resources */,
+				EE04AC9A2187456C0000AC0B /* Lato-Medium.ttf in Resources */,
+				EE04AC922187456C0000AC0B /* Lato-Regular.ttf in Resources */,
+				EE04AC9B2187456C0000AC0B /* Lato-ThinItalic.ttf in Resources */,
+				EE895E9E2183431E00A1E357 /* Assets.xcassets in Resources */,
+				EE04AC982187456C0000AC0B /* Lato-BoldItalic.ttf in Resources */,
+				EE04AC942187456C0000AC0B /* Lato-BlackItalic.ttf in Resources */,
+				EE855FD6218865F8002B19B7 /* TransactionView.xib in Resources */,
+				EE04AC952187456C0000AC0B /* Lato-Semibold.ttf in Resources */,
+				EE04AC8B2187456C0000AC0B /* Lato-LightItalic.ttf in Resources */,
+				EE04AC7421873A7F0000AC0B /* RegistrationView.xib in Resources */,
+				EE04AC55218709E30000AC0B /* Logo.xib in Resources */,
+				EE04AC892187456C0000AC0B /* Lato-HeavyItalic.ttf in Resources */,
+				EE04AC902187456C0000AC0B /* Lato-SemiboldItalic.ttf in Resources */,
+				EE895E822183431E00A1E357 /* LoginView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC4DE11A7CA7F3B6DB2E1AAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitPoint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE895E4B2183431E00A1E357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE895EDA21834F1300A1E357 /* HttpRequestOperationManager.m in Sources */,
+				EE895E9B2183431E00A1E357 /* StringUtils.m in Sources */,
+				EE895EC421834CB700A1E357 /* BaseEntity.m in Sources */,
+				EE895EDD21834F6D00A1E357 /* UsersResponse.m in Sources */,
+				EE895E582183431E00A1E357 /* AppDelegate.m in Sources */,
+				EE855FC421882BED002B19B7 /* ProfileView.m in Sources */,
+				EE895E7D2183431E00A1E357 /* LoginController.m in Sources */,
+				EE895E952183431E00A1E357 /* Font.m in Sources */,
+				EE895ECE21834D9C00A1E357 /* HttpRequestManager.m in Sources */,
+				EE895EBA21834BBA00A1E357 /* BaseRequest.m in Sources */,
+				EE895ED221834E6D00A1E357 /* Alert.m in Sources */,
+				EE895E872183431E00A1E357 /* BaseService.m in Sources */,
+				EE855FE621887D30002B19B7 /* MineBlockRequest.m in Sources */,
+				EE855FC121882BDB002B19B7 /* ProfileController.m in Sources */,
+				EE855FDC21886C3F002B19B7 /* Lookup.m in Sources */,
+				EE855FE32188799A002B19B7 /* BlockResponse.m in Sources */,
+				EE04AC6221870CE60000AC0B /* TPKeyboardAvoidingScrollView.m in Sources */,
+				EE895E762183431E00A1E357 /* BaseController.m in Sources */,
+				EE895EC721834CC100A1E357 /* User.m in Sources */,
+				EE04AC7221873A750000AC0B /* RegistrationView.m in Sources */,
+				EE895E712183431E00A1E357 /* NibDesignable.m in Sources */,
+				EE855FE921888A0B002B19B7 /* Block.m in Sources */,
+				EE895E922183431E00A1E357 /* DateUtils.m in Sources */,
+				EE855FD4218865EB002B19B7 /* TransactionView.m in Sources */,
+				EE895E8B2183431E00A1E357 /* Service.m in Sources */,
+				EE895EAE21834B2600A1E357 /* AuthService.m in Sources */,
+				EE855FD1218865D5002B19B7 /* TransactionController.m in Sources */,
+				EE895EB221834B3C00A1E357 /* AuthResponse.m in Sources */,
+				EE04AC67218719C00000AC0B /* UserService.m in Sources */,
+				EE895E682183431E00A1E357 /* TableViewCell.m in Sources */,
+				EE04AC6321870CE60000AC0B /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				EE895EBE21834C6000A1E357 /* PasswordChangeRequest.m in Sources */,
+				EE895E6B2183431E00A1E357 /* TextField.m in Sources */,
+				EE04AC6121870CE60000AC0B /* TPKeyboardAvoidingTableView.m in Sources */,
+				EE895EC121834C8200A1E357 /* BaseResponse.m in Sources */,
+				EE855FD921886C06002B19B7 /* LookupResponse.m in Sources */,
+				EE04AC6B218737500000AC0B /* LoginResponse.m in Sources */,
+				EE895E982183431E00A1E357 /* ParserUtils.m in Sources */,
+				EE895E802183431E00A1E357 /* LoginView.m in Sources */,
+				EE04AC6021870CE60000AC0B /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				EE895ECA21834CE300A1E357 /* UserDefaults.m in Sources */,
+				EE895E552183431E00A1E357 /* main.m in Sources */,
+				EE895E5E2183431E00A1E357 /* UIView+UIViewRect.m in Sources */,
+				EE895E792183431E00A1E357 /* BaseView.m in Sources */,
+				EE04AC6F21873A640000AC0B /* RegistrationController.m in Sources */,
+				EE855FCA218838B2002B19B7 /* RegisterRequest.m in Sources */,
+				EE895E8F2183431E00A1E357 /* Color.m in Sources */,
+				EE895ED921834F1300A1E357 /* NSURLSessionTask+CustomProperties.m in Sources */,
+				EE855FE021887835002B19B7 /* BlockchainService.m in Sources */,
+				EE895E652183431E00A1E357 /* Label.m in Sources */,
+				EE895E622183431E00A1E357 /* Button.m in Sources */,
+				EE895EAA21834AD700A1E357 /* LoginRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE895E9F2183431E00A1E357 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE895EA02183431E00A1E357 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE895EA32183431E00A1E357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EE895EA42183431E00A1E357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE895EA62183431E00A1E357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18E40EA0492B66B347C4F9F /* Pods-BitPoint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitPoint/BitPoint-Prefix.pch";
+				INFOPLIST_FILE = "BitPoint/BitPoint-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.10plabs.BitPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BitPoint/SupportingFiles/Headers/BitPoint-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		EE895EA72183431E00A1E357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7DE98390E1D4DD2D116456 /* Pods-BitPoint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BitPoint/BitPoint-Prefix.pch";
+				INFOPLIST_FILE = "BitPoint/BitPoint-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.10plabs.BitPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BitPoint/SupportingFiles/Headers/BitPoint-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE895E4A2183431E00A1E357 /* Build configuration list for PBXProject "BitPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE895EA32183431E00A1E357 /* Debug */,
+				EE895EA42183431E00A1E357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE895EA52183431E00A1E357 /* Build configuration list for PBXNativeTarget "BitPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE895EA62183431E00A1E357 /* Debug */,
+				EE895EA72183431E00A1E357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE895E472183431E00A1E357 /* Project object */;
+}

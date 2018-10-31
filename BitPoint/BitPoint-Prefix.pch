@@ -1,0 +1,26 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "Constant.h"
+    #import "Font.h"
+    #import "ParserUtils.h"
+    #import "StringUtils.h"
+    #import "Alert.h"
+    #import "Color.h"
+    #import "UserDefaults.h"
+    #import "DateUtils.h"
+    #import "Label.h"
+    #import "Key.h"
+    #import "Message.h"
+    #import "AppDelegate.h"
+
+#endif
