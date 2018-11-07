@@ -19,7 +19,7 @@
 @property(nonatomic,strong) NSString *email;
 @property(nonatomic,strong) NSString *phone;
 @property (nonatomic, strong) NSString *NIC;
-@property (nonatomic, assign) NSString *gender;
+@property (nonatomic, strong) NSString *gender;
 @property (nonatomic, assign) UserType userType;
 @property (nonatomic, nonatomic) NSString* authToken;
 
